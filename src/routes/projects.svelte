@@ -2,11 +2,7 @@
 	import { fly } from "svelte/transition";
 </script>
 
-<svelte:head>
-	<title>daniel</title>
-</svelte:head>
-
 <div in:fly={{ y: 50, duration: 500 }}>
-	<h1>daniel</h1>
-	<p>hello</p>
+	<h1>my projects</h1>
+	<p>stuff</p>
 </div>

@@ -1,0 +1,22 @@
+:root {
+	font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1920 - 300)));
+}
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	background: #000;
+	color: #fff;
+}
+
+#svelte {
+	width: min(800px, 96%);
+	margin: 0 auto;
+}
