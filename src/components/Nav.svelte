@@ -1,9 +1,9 @@
 <nav>
-	<a href="." class="name">
+	<a href="/" class="name">
 		<img src="/wireframe.svg" alt="logo" height="20" width="20" />
 	</a>
-	<a href="about">about</a>
-	<a href="projects">projects</a>
+	<a href="/about">about</a>
+	<a href="/projects">projects</a>
 </nav>
 
 <style>
