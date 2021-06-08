@@ -14,7 +14,7 @@
 		padding: 8em 0 4em 0;
 	}
 
-	a.name {
+	.name {
 		margin-right: auto;
 	}
 
@@ -25,17 +25,18 @@
 
 	a {
 		color: white;
-		transition-property: border, opacity;
+		transition-property: border, filter;
 		transition-duration: 0.2s;
 	}
 
 	a:hover {
-		opacity: 0.8;
+		filter: drop-shadow(0 0 0.5em #fff);
 	}
 
 	a:not(.name) {
 		text-decoration: none;
 		border-bottom: 1px solid white;
+		padding: 1px 0;
 	}
 
 	a:not(.name):hover {
@@ -43,6 +44,6 @@
 	}
 
 	a:nth-child(n + 3) {
-		margin-left: 2em;
+		margin-left: 1em;
 	}
 </style>

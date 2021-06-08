@@ -17,6 +17,6 @@ body {
 }
 
 #svelte {
-	width: min(800px, 96%);
+	width: min(800px, calc(100% - 2em));
 	margin: 0 auto;
 }
